@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[project]
+name = "brand-kit-generator"
+version = "3.0.0"
+description = "Generate a complete, bilingual (Persian/English) brand kit folder structure."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "borodayeh" }]
+keywords = ["brand", "branding", "scaffold", "generator", "bilingual", "persian", "rtl"]
+dependencies = []
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Natural Language :: Persian",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/borodayeh/Brand-Kit-Generator"
+Issues = "https://github.com/borodayeh/Brand-Kit-Generator/issues"
+Changelog = "https://github.com/borodayeh/Brand-Kit-Generator/blob/main/CHANGELOG.md"
+
+[project.scripts]
+brandkit = "brand_kit_generator.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.5", "mypy>=1.8", "jsonschema>=4"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["brand_kit_generator"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "brand_kit_generator",
+  "tests",
+  "README.md",
+  "README.fa.md",
+  "CHANGELOG.md",
+  "LICENSE",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["error", "ignore::ResourceWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003", "E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+"create_brand_kit.py" = ["E402"]
+
+[tool.mypy]
+python_version = "3.10"   # lowest version mypy supports; runtime target is 3.9
+files = ["brand_kit_generator"]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+no_implicit_optional = true

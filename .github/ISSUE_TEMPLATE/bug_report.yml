@@ -1,0 +1,46 @@
+name: Bug report / گزارش اشکال
+description: Something does not work as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? / چه اتفاقی افتاد؟
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command / دستوری که اجرا کردید
+      render: shell
+      placeholder: brandkit ./MyBrand --template full --lang fa
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output / خروجی کامل
+      description: Please include the full output, ideally with --verbose.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version / نسخه
+      placeholder: "brandkit --version"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system / سیستم‌عامل
+      options: [Linux, macOS, Windows, Other]
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version / نسخهٔ پایتون
+      placeholder: "python --version"
+    validations:
+      required: true

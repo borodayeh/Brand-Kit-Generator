@@ -1,0 +1,435 @@
+{
+  "$schema": "../structure.schema.json",
+  "$meta": {
+    "name_en": "Full agency-grade brand kit (55 folders)",
+    "name_fa": "کیت کامل در سطح آژانس (۵۵ پوشه)",
+    "default_brand": "Ultimate",
+    "version": "1.0.0"
+  },
+  "{brand}_Brand_Kit": {
+    "path": "{brand}_Brand_Kit",
+    "title_en": "{brand} Brand Kit",
+    "title_fa": "کیت برند {brand}",
+    "description_en": "This is the main folder that contains all assets related to the {brand} brand identity.",
+    "description_fa": "این پوشهٔ اصلی شامل تمام دارایی‌های مربوط به هویت برند {brand} است.",
+    "subdirs": {
+      "00_Legal_&_Licensing": {
+        "path": "00_Legal_&_Licensing",
+        "title_en": "Legal & Licensing",
+        "title_fa": "حقوقی و مجوزها",
+        "description_en": "This section includes legal documents and licenses for brand assets.",
+        "description_fa": "این بخش شامل اسناد حقوقی و مجوزهای مربوط به دارایی‌های برند است.",
+        "subdirs": {
+          "Trademark_Registration_Documents": {
+            "path": "Trademark_Registration_Documents",
+            "title_en": "Trademark Registration Documents",
+            "title_fa": "اسناد ثبت علامت تجاری",
+            "description_en": "Documents for trademark registration.",
+            "description_fa": "اسناد ثبت علامت تجاری."
+          },
+          "Copyright_Information": {
+            "path": "Copyright_Information",
+            "title_en": "Copyright Information",
+            "title_fa": "اطلاعات حق نشر",
+            "description_en": "Copyright and intellectual property information.",
+            "description_fa": "اطلاعات حق نشر و مالکیت معنوی."
+          },
+          "Font_&_Image_Licenses": {
+            "path": "Font_&_Image_Licenses",
+            "title_en": "Font & Image Licenses",
+            "title_fa": "مجوزهای فونت و تصویر",
+            "description_en": "Licenses for fonts and images.",
+            "description_fa": "مجوزهای استفاده از فونت‌ها و تصاویر."
+          }
+        }
+      },
+      "01_Brand_Strategy_&_Verbal_Identity": {
+        "path": "01_Brand_Strategy_&_Verbal_Identity",
+        "title_en": "Brand Strategy & Verbal Identity",
+        "title_fa": "استراتژی برند و هویت کلامی",
+        "description_en": "This section covers brand strategy and verbal identity.",
+        "description_fa": "این بخش به استراتژی برند و هویت کلامی می‌پردازد.",
+        "subdirs": {
+          "01_Core_Brand_Elements": {
+            "path": "01_Core_Brand_Elements",
+            "title_en": "Core Brand Elements",
+            "title_fa": "عناصر اصلی برند",
+            "description_en": "Core brand elements including mission, vision, and values.",
+            "description_fa": "عناصر اصلی برند شامل ماموریت، چشم‌انداز و ارزش‌ها."
+          },
+          "02_Messaging_&_Verbal_Identity": {
+            "path": "02_Messaging_&_Verbal_Identity",
+            "title_en": "Messaging & Verbal Identity",
+            "title_fa": "پیام‌رسانی و هویت کلامی",
+            "description_en": "Messaging and tone of voice guidelines.",
+            "description_fa": "دستورالعمل‌های پیام‌رسانی و لحن کلام."
+          },
+          "03_Audience_Insights": {
+            "path": "03_Audience_Insights",
+            "title_en": "Audience Insights",
+            "title_fa": "شناخت مخاطب",
+            "description_en": "Audience analysis and personas.",
+            "description_fa": "تحلیل و پرسونا (شخصیت‌های نمونه) مخاطبان."
+          }
+        }
+      },
+      "02_Visual_Identity_Core": {
+        "path": "02_Visual_Identity_Core",
+        "title_en": "Visual Identity Core",
+        "title_fa": "هستهٔ هویت بصری",
+        "description_en": "This section contains all essential visual brand assets.",
+        "description_fa": "این بخش شامل تمام دارایی‌های بصری ضروری برند است.",
+        "subdirs": {
+          "01_Logos": {
+            "path": "01_Logos",
+            "title_en": "Logos",
+            "title_fa": "لوگوها",
+            "description_en": "All versions and formats of the logo.",
+            "description_fa": "تمام نسخه‌ها و فرمت‌های مختلف لوگو.",
+            "subdirs": {
+              "01_Primary_Logo": {
+                "path": "01_Primary_Logo",
+                "title_en": "Primary Logo",
+                "title_fa": "لوگوی اصلی",
+                "description_en": "Primary logo.",
+                "description_fa": "لوگوی اصلی."
+              },
+              "02_Secondary_Logos": {
+                "path": "02_Secondary_Logos",
+                "title_en": "Secondary Logos",
+                "title_fa": "لوگوهای فرعی",
+                "description_en": "Secondary logos and variants.",
+                "description_fa": "لوگوهای ثانویه و واریانت‌ها."
+              },
+              "03_Logomarks_&_Icons": {
+                "path": "03_Logomarks_&_Icons",
+                "title_en": "Logomarks & Icons",
+                "title_fa": "نشانه‌ها و آیکون‌های لوگو",
+                "description_en": "Logomarks and icons.",
+                "description_fa": "نمادهای لوگو و آیکون‌ها."
+              },
+              "04_Lockups": {
+                "path": "04_Lockups",
+                "title_en": "Lockups",
+                "title_fa": "ترکیب‌بندی‌های لوگو",
+                "description_en": "Logo and typography lockups.",
+                "description_fa": "ترکیبات لوگو و نوشتار."
+              },
+              "05_Incorrect_Usage_Examples": {
+                "path": "05_Incorrect_Usage_Examples",
+                "title_en": "Incorrect Usage Examples",
+                "title_fa": "نمونه‌های استفادهٔ نادرست",
+                "description_en": "Examples of incorrect logo usage.",
+                "description_fa": "نمونه‌های استفاده نادرست از لوگو."
+              },
+              "06_Favicons_&_App_Icons": {
+                "path": "06_Favicons_&_App_Icons",
+                "title_en": "Favicons & App Icons",
+                "title_fa": "فاوآیکون و آیکون‌های اپلیکیشن",
+                "description_en": "Favicons and app icons.",
+                "description_fa": "آیکون فاویکون و برنامه‌های کاربردی."
+              },
+              "Source_Files": {
+                "path": "Source_Files",
+                "title_en": "Source Files",
+                "title_fa": "فایل‌های منبع",
+                "description_en": "Original vector files (e.g., AI, EPS) and output files (e.g., SVG, PNG).",
+                "description_fa": "فایل‌های اصلی وکتور (مانند AI, EPS) و فایل‌های خروجی (مانند SVG, PNG).",
+                "sample_files": [
+                  "sample_logo.ai",
+                  "sample_logo.eps",
+                  "sample_logo.svg"
+                ]
+              }
+            }
+          },
+          "02_Color_Palettes": {
+            "path": "02_Color_Palettes",
+            "title_en": "Color Palettes",
+            "title_fa": "پالت‌های رنگی",
+            "description_en": "Color palettes used in the brand.",
+            "description_fa": "پالت‌های رنگی مورد استفاده در برند.",
+            "subdirs": {
+              "Main_Palette": {
+                "path": "Main_Palette",
+                "title_en": "Main Palette",
+                "title_fa": "پالت اصلی",
+                "description_en": "Main palette with various color codes.",
+                "description_fa": "پالت اصلی با کدهای رنگی مختلف."
+              },
+              "Secondary_Palette": {
+                "path": "Secondary_Palette",
+                "title_en": "Secondary Palette",
+                "title_fa": "پالت فرعی",
+                "description_en": "Secondary palette.",
+                "description_fa": "پالت ثانویه."
+              },
+              "Neutral_Palette": {
+                "path": "Neutral_Palette",
+                "title_en": "Neutral Palette",
+                "title_fa": "پالت خنثی",
+                "description_en": "Neutral palette.",
+                "description_fa": "پالت خنثی."
+              },
+              "Color_Usage_Guidelines": {
+                "path": "Color_Usage_Guidelines",
+                "title_en": "Color Usage Guidelines",
+                "title_fa": "دستورالعمل استفاده از رنگ",
+                "description_en": "Color usage guidelines.",
+                "description_fa": "دستورالعمل‌های استفاده از رنگ."
+              }
+            }
+          },
+          "03_Typography": {
+            "path": "03_Typography",
+            "title_en": "Typography",
+            "title_fa": "تایپوگرافی",
+            "description_en": "Fonts and typography guidelines.",
+            "description_fa": "فونت‌ها و دستورالعمل‌های تایپوگرافی.",
+            "subdirs": {
+              "Primary_Fonts": {
+                "path": "Primary_Fonts",
+                "title_en": "Primary Fonts",
+                "title_fa": "فونت‌های اصلی",
+                "description_en": "Primary fonts.",
+                "description_fa": "فونت‌های اصلی."
+              },
+              "Secondary_Fonts": {
+                "path": "Secondary_Fonts",
+                "title_en": "Secondary Fonts",
+                "title_fa": "فونت‌های فرعی",
+                "description_en": "Secondary fonts.",
+                "description_fa": "فونت‌های ثانویه."
+              },
+              "Font_Pairing_Guidelines": {
+                "path": "Font_Pairing_Guidelines",
+                "title_en": "Font Pairing Guidelines",
+                "title_fa": "دستورالعمل ترکیب فونت‌ها",
+                "description_en": "Font pairing guidelines.",
+                "description_fa": "دستورالعمل ترکیب فونت‌ها."
+              }
+            }
+          },
+          "04_Visual_System": {
+            "path": "04_Visual_System",
+            "title_en": "Visual System",
+            "title_fa": "سیستم بصری",
+            "description_en": "Brand's visual system, including photography, illustration, and icons.",
+            "description_fa": "سیستم بصری برند شامل عکاسی، تصویرسازی و آیکون‌ها.",
+            "subdirs": {
+              "Approved_Photography": {
+                "path": "Approved_Photography",
+                "title_en": "Approved Photography",
+                "title_fa": "عکاسی تأییدشده",
+                "description_en": "Approved photography.",
+                "description_fa": "تصاویر تاییدشده."
+              },
+              "Illustrations": {
+                "path": "Illustrations",
+                "title_en": "Illustrations",
+                "title_fa": "تصویرسازی‌ها",
+                "description_en": "Vector illustrations.",
+                "description_fa": "تصاویر وکتور."
+              },
+              "Iconography": {
+                "path": "Iconography",
+                "title_en": "Iconography",
+                "title_fa": "آیکونوگرافی",
+                "description_en": "Icons.",
+                "description_fa": "آیکون‌ها."
+              },
+              "Patterns_&_Textures": {
+                "path": "Patterns_&_Textures",
+                "title_en": "Patterns & Textures",
+                "title_fa": "الگوها و بافت‌ها",
+                "description_en": "Patterns and textures.",
+                "description_fa": "الگوها و بافت‌ها."
+              }
+            }
+          }
+        }
+      },
+      "03_Motion_&_Audio_Identity": {
+        "path": "03_Motion_&_Audio_Identity",
+        "title_en": "Motion & Audio Identity",
+        "title_fa": "هویت متحرک و صوتی",
+        "description_en": "Brand's motion and audio identity.",
+        "description_fa": "هویت حرکتی و صوتی برند.",
+        "subdirs": {
+          "01_Motion_Graphics": {
+            "path": "01_Motion_Graphics",
+            "title_en": "Motion Graphics",
+            "title_fa": "موشن‌گرافیک",
+            "description_en": "Motion graphics for videos.",
+            "description_fa": "گرافیک‌های حرکتی برای ویدیوها.",
+            "subdirs": {
+              "Logo_Animations": {
+                "path": "Logo_Animations",
+                "title_en": "Logo Animations",
+                "title_fa": "انیمیشن‌های لوگو",
+                "description_en": "Logo animations.",
+                "description_fa": "انیمیشن‌های لوگو."
+              },
+              "Video_Intros_&_Outros": {
+                "path": "Video_Intros_&_Outros",
+                "title_en": "Video Intros & Outros",
+                "title_fa": "تیزرهای آغازین و پایانی ویدیو",
+                "description_en": "Video intros and outros.",
+                "description_fa": "ویدیوی معرفی و اختتامیه."
+              },
+              "Lower_Thirds_&_Transitions": {
+                "path": "Lower_Thirds_&_Transitions",
+                "title_en": "Lower Thirds & Transitions",
+                "title_fa": "زیرنویس‌های گرافیکی و ترنزیشن‌ها",
+                "description_en": "Lower thirds and video transitions.",
+                "description_fa": "نوارهای پایین تصویر و ترنزیشن‌ها."
+              },
+              "Source_Files": {
+                "path": "Source_Files",
+                "title_en": "Source Files",
+                "title_fa": "فایل‌های منبع",
+                "description_en": "Original motion graphics software files (e.g., After Effects).",
+                "description_fa": "فایل‌های اصلی نرم‌افزارهای موشن گرافیک (مانند After Effects).",
+                "sample_files": [
+                  "sample_motion.aep",
+                  "sample_intro.mov"
+                ]
+              }
+            }
+          },
+          "02_Audio_Branding": {
+            "path": "02_Audio_Branding",
+            "title_en": "Audio Branding",
+            "title_fa": "برندسازی صوتی",
+            "description_en": "Audio branding.",
+            "description_fa": "برندسازی صوتی.",
+            "subdirs": {
+              "Sound_Logo_Jingle": {
+                "path": "Sound_Logo_Jingle",
+                "title_en": "Sound Logo / Jingle",
+                "title_fa": "لوگوی صوتی (جینگل)",
+                "description_en": "Brand sound logo or jingle.",
+                "description_fa": "لوگوی صوتی یا جینگل برند."
+              },
+              "Brand_Music_&_Sound_Effects": {
+                "path": "Brand_Music_&_Sound_Effects",
+                "title_en": "Brand Music & Sound Effects",
+                "title_fa": "موسیقی برند و جلوه‌های صوتی",
+                "description_en": "Brand music and sound effects.",
+                "description_fa": "موسیقی و افکت‌های صوتی برند."
+              }
+            }
+          }
+        }
+      },
+      "04_Templates_&_Assets": {
+        "path": "04_Templates_&_Assets",
+        "title_en": "Templates & Assets",
+        "title_fa": "قالب‌ها و دارایی‌ها",
+        "description_en": "Templates and ready-to-use assets for daily use.",
+        "description_fa": "قالب‌ها و دارایی‌های آماده برای استفاده روزمره.",
+        "subdirs": {
+          "01_Marketing_Materials": {
+            "path": "01_Marketing_Materials",
+            "title_en": "Marketing Materials",
+            "title_fa": "اقلام بازاریابی",
+            "description_en": "Marketing materials.",
+            "description_fa": "مواد بازاریابی."
+          },
+          "02_Print_Stationery": {
+            "path": "02_Print_Stationery",
+            "title_en": "Print & Stationery",
+            "title_fa": "اقلام چاپی و اداری",
+            "description_en": "Print stationery.",
+            "description_fa": "لوازم‌التحریر چاپی."
+          },
+          "03_Digital_Assets": {
+            "path": "03_Digital_Assets",
+            "title_en": "Digital Assets",
+            "title_fa": "دارایی‌های دیجیتال",
+            "description_en": "Digital assets.",
+            "description_fa": "دارایی‌های دیجیتال."
+          },
+          "04_Signage_&_Merchandise": {
+            "path": "04_Signage_&_Merchandise",
+            "title_en": "Signage & Merchandise",
+            "title_fa": "تابلوها و محصولات جانبی",
+            "description_en": "Signage and merchandise.",
+            "description_fa": "تابلو و محصولات جانبی."
+          }
+        }
+      },
+      "05_Brand_Guidelines": {
+        "path": "05_Brand_Guidelines",
+        "title_en": "Brand Guidelines",
+        "title_fa": "دستورالعمل‌های برند",
+        "description_en": "This section serves as the main reference for using all brand assets.",
+        "description_fa": "این بخش به عنوان مرجع اصلی برای استفاده از تمام دارایی‌های برند عمل می‌کند.",
+        "subdirs": {
+          "Brand_Book_PDF": {
+            "path": "Brand_Book_PDF",
+            "title_en": "Brand Book (PDF)",
+            "title_fa": "کتابچهٔ برند (PDF)",
+            "description_en": "Comprehensive brand guide (PDF).",
+            "description_fa": "کتابچه راهنمای جامع برند."
+          },
+          "Brand_Portal_Link": {
+            "path": "Brand_Portal_Link",
+            "title_en": "Brand Portal Link",
+            "title_fa": "لینک پرتال برند",
+            "description_en": "Link to the online brand portal.",
+            "description_fa": "لینک به پلتفرم آنلاین برند."
+          },
+          "Source_Files": {
+            "path": "Source_Files",
+            "title_en": "Source Files",
+            "title_fa": "فایل‌های منبع",
+            "description_en": "Original files for editing the guidelines (e.g., InDesign, Figma).",
+            "description_fa": "فایل‌های اصلی برای ویرایش راهنما (مانند InDesign, Figma).",
+            "sample_files": [
+              "brand_guidelines.indd",
+              "brand_guidelines.fig"
+            ]
+          }
+        }
+      },
+      "06_Archive_&_Historical_Data": {
+        "path": "06_Archive_&_Historical_Data",
+        "title_en": "Archive & Historical Data",
+        "title_fa": "آرشیو و داده‌های تاریخی",
+        "description_en": "Archive and historical data of the brand.",
+        "description_fa": "آرشیو و داده‌های تاریخی برند.",
+        "subdirs": {
+          "Brand_Evolution_Timeline": {
+            "path": "Brand_Evolution_Timeline",
+            "title_en": "Brand Evolution Timeline",
+            "title_fa": "جدول زمانی تکامل برند",
+            "description_en": "Brand evolution timeline.",
+            "description_fa": "جدول زمانی تکامل برند."
+          },
+          "Rejected_Concepts": {
+            "path": "Rejected_Concepts",
+            "title_en": "Rejected Concepts",
+            "title_fa": "طرح‌های ردشده",
+            "description_en": "Rejected concepts.",
+            "description_fa": "طرح‌های مفهومی ردشده."
+          },
+          "Previous_Brand_Guides": {
+            "path": "Previous_Brand_Guides",
+            "title_en": "Previous Brand Guides",
+            "title_fa": "راهنماهای پیشین برند",
+            "description_en": "Previous brand guide versions.",
+            "description_fa": "نسخه‌های قبلی دستورالعمل‌های برند."
+          },
+          "Legacy_Assets": {
+            "path": "Legacy_Assets",
+            "title_en": "Legacy Assets",
+            "title_fa": "دارایی‌های قدیمی",
+            "description_en": "Legacy brand assets.",
+            "description_fa": "دارایی‌های قدیمی برند."
+          }
+        }
+      }
+    }
+  }
+}

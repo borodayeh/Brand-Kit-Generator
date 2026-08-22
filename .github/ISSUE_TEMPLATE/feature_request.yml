@@ -1,0 +1,25 @@
+name: Feature request / پیشنهاد قابلیت
+description: Suggest an improvement or a new template
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / مسئله
+      description: What is missing or hard to do today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal / پیشنهاد
+      description: How should it work? CLI flags, template layout, etc.
+    validations:
+      required: true
+  - type: checkboxes
+    id: bilingual
+    attributes:
+      label: Bilingual impact / تأثیر بر دوزبانگی
+      options:
+        - label: This change needs new user-facing strings in both fa and en
+        - label: This change affects RTL rendering

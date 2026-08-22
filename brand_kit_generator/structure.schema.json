@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/borodayeh/Brand-Kit-Generator/structure.schema.json",
+  "title": "Brand Kit Generator structure definition",
+  "description": "Declarative, bilingual (fa/en) folder tree consumed by Brand Kit Generator.",
+  "type": "object",
+  "minProperties": 1,
+  "properties": {
+    "$schema": { "type": "string" },
+    "$meta": { "$ref": "#/$defs/meta" }
+  },
+  "additionalProperties": { "$ref": "#/$defs/node" },
+  "$defs": {
+    "meta": {
+      "type": "object",
+      "description": "Optional template metadata, ignored when building the tree.",
+      "properties": {
+        "name_en": { "type": "string" },
+        "name_fa": { "type": "string" },
+        "default_brand": { "type": "string", "minLength": 1 },
+        "version": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "node": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Folder name on disk. Defaults to the JSON key. Supports the {brand} placeholder."
+        },
+        "title_en": { "type": "string", "description": "English display title." },
+        "title_fa": { "type": "string", "description": "Persian display title." },
+        "description_en": { "type": "string", "description": "English README body." },
+        "description_fa": { "type": "string", "description": "Persian README body." },
+        "sample_files": {
+          "type": "array",
+          "description": "Placeholder asset file names created inside the folder.",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "subdirs": {
+          "type": "object",
+          "description": "Nested nodes with the same shape.",
+          "additionalProperties": { "$ref": "#/$defs/node" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

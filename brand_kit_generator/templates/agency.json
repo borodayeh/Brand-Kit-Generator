@@ -1,0 +1,123 @@
+{
+  "$schema": "../structure.schema.json",
+  "$meta": {
+    "name_en": "Agency client hand-off kit",
+    "name_fa": "کیت تحویل به مشتری برای آژانس",
+    "default_brand": "Client",
+    "version": "1.0.0"
+  },
+  "{brand}_Client_Brand_Kit": {
+    "title_en": "{brand} Client Brand Kit",
+    "title_fa": "کیت برند مشتری {brand}",
+    "description_en": "Deliverable-oriented structure for handing a finished brand over to the {brand} client.",
+    "description_fa": "ساختار تحویل‌محور برای واگذاری برند نهایی‌شده به مشتری {brand}.",
+    "subdirs": {
+      "00_Client_Handover": {
+        "title_en": "Client Handover",
+        "title_fa": "تحویل به مشتری",
+        "description_en": "Signed documents, invoices and the handover checklist.",
+        "description_fa": "اسناد امضاشده، صورتحساب‌ها و چک‌لیست تحویل."
+      },
+      "01_Discovery_&_Strategy": {
+        "title_en": "Discovery & Strategy",
+        "title_fa": "کشف و استراتژی",
+        "description_en": "Research, workshops, competitor audit and positioning.",
+        "description_fa": "تحقیق، کارگاه‌ها، بررسی رقبا و جایگاه‌یابی."
+      },
+      "02_Concepts": {
+        "title_en": "Concepts",
+        "title_fa": "کانسپت‌ها",
+        "description_en": "Presented directions, including the ones not selected.",
+        "description_fa": "مسیرهای ارائه‌شده، شامل مواردی که انتخاب نشدند.",
+        "subdirs": {
+          "Presented": {
+            "title_en": "Presented",
+            "title_fa": "ارائه‌شده",
+            "description_en": "Concepts shown to the client.",
+            "description_fa": "کانسپت‌های ارائه‌شده به مشتری."
+          },
+          "Rejected": {
+            "title_en": "Rejected",
+            "title_fa": "ردشده",
+            "description_en": "Archived alternative directions.",
+            "description_fa": "مسیرهای جایگزین بایگانی‌شده."
+          }
+        }
+      },
+      "03_Final_Identity": {
+        "title_en": "Final Identity",
+        "title_fa": "هویت نهایی",
+        "description_en": "The approved identity, ready for production.",
+        "description_fa": "هویت تأییدشده و آمادهٔ تولید.",
+        "subdirs": {
+          "Logos": {
+            "title_en": "Logos",
+            "title_fa": "لوگوها",
+            "description_en": "All approved logo variants.",
+            "description_fa": "همهٔ نسخه‌های تأییدشدهٔ لوگو.",
+            "sample_files": [
+              "logo.svg",
+              "logo.eps"
+            ]
+          },
+          "Color_&_Type": {
+            "title_en": "Color & Type",
+            "title_fa": "رنگ و تایپوگرافی",
+            "description_en": "Final palette and typography specimens.",
+            "description_fa": "پالت نهایی و نمونه‌های تایپوگرافی."
+          },
+          "Visual_System": {
+            "title_en": "Visual System",
+            "title_fa": "سیستم بصری",
+            "description_en": "Photography, illustration, icon and pattern rules.",
+            "description_fa": "قواعد عکاسی، تصویرسازی، آیکون و الگو."
+          }
+        }
+      },
+      "04_Production_Files": {
+        "title_en": "Production Files",
+        "title_fa": "فایل‌های تولید",
+        "description_en": "Print-ready and screen-ready exports.",
+        "description_fa": "خروجی‌های آمادهٔ چاپ و نمایش.",
+        "subdirs": {
+          "Print": {
+            "title_en": "Print",
+            "title_fa": "چاپ",
+            "description_en": "CMYK, bleed and die-line files.",
+            "description_fa": "فایل‌های CMYK، نشت رنگ و خط برش."
+          },
+          "Digital": {
+            "title_en": "Digital",
+            "title_fa": "دیجیتال",
+            "description_en": "RGB exports for web and social.",
+            "description_fa": "خروجی‌های RGB برای وب و شبکه‌های اجتماعی."
+          },
+          "Source": {
+            "title_en": "Source",
+            "title_fa": "منبع",
+            "description_en": "Editable working files.",
+            "description_fa": "فایل‌های کاری قابل ویرایش.",
+            "sample_files": [
+              "identity.ai"
+            ]
+          }
+        }
+      },
+      "05_Brand_Guidelines": {
+        "title_en": "Brand Guidelines",
+        "title_fa": "دستورالعمل‌های برند",
+        "description_en": "The brand book delivered to the client.",
+        "description_fa": "کتابچهٔ برند تحویل‌شده به مشتری.",
+        "sample_files": [
+          "brand_guidelines.indd"
+        ]
+      },
+      "06_Legal_&_Licensing": {
+        "title_en": "Legal & Licensing",
+        "title_fa": "حقوقی و مجوزها",
+        "description_en": "Trademark filings, font and image licenses.",
+        "description_fa": "پرونده‌های علامت تجاری و مجوزهای فونت و تصویر."
+      }
+    }
+  }
+}

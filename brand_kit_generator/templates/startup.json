@@ -1,0 +1,116 @@
+{
+  "$schema": "../structure.schema.json",
+  "$meta": {
+    "name_en": "Startup kit (product-focused)",
+    "name_fa": "کیت استارتاپی (محصول‌محور)",
+    "default_brand": "Acme",
+    "version": "1.0.0"
+  },
+  "{brand}_Brand_Kit": {
+    "title_en": "{brand} Brand Kit",
+    "title_fa": "کیت برند {brand}",
+    "description_en": "A product-focused brand kit for the {brand} startup, covering brand, product UI and go-to-market assets.",
+    "description_fa": "کیت برند محصول‌محور برای استارتاپ {brand}، شامل برند، رابط کاربری محصول و دارایی‌های ورود به بازار.",
+    "subdirs": {
+      "01_Brand_Basics": {
+        "title_en": "Brand Basics",
+        "title_fa": "پایه‌های برند",
+        "description_en": "Mission, positioning, tone of voice and elevator pitch.",
+        "description_fa": "ماموریت، جایگاه‌یابی، لحن کلام و معرفی کوتاه.",
+        "subdirs": {
+          "Logos": {
+            "title_en": "Logos",
+            "title_fa": "لوگوها",
+            "description_en": "Logo lockups and app icons.",
+            "description_fa": "ترکیب‌بندی‌های لوگو و آیکون اپلیکیشن.",
+            "sample_files": [
+              "logo.svg"
+            ]
+          },
+          "Colors_&_Typography": {
+            "title_en": "Colors & Typography",
+            "title_fa": "رنگ‌ها و تایپوگرافی",
+            "description_en": "Palette and type scale shared with the product.",
+            "description_fa": "پالت رنگ و مقیاس تایپوگرافی مشترک با محصول."
+          },
+          "Voice_&_Messaging": {
+            "title_en": "Voice & Messaging",
+            "title_fa": "لحن و پیام‌رسانی",
+            "description_en": "How {brand} speaks to its users.",
+            "description_fa": "شیوهٔ صحبت {brand} با کاربرانش."
+          }
+        }
+      },
+      "02_Product_UI": {
+        "title_en": "Product UI",
+        "title_fa": "رابط کاربری محصول",
+        "description_en": "Design system assets used inside the product.",
+        "description_fa": "دارایی‌های سیستم طراحی که داخل محصول استفاده می‌شوند.",
+        "subdirs": {
+          "Design_System": {
+            "title_en": "Design System",
+            "title_fa": "سیستم طراحی",
+            "description_en": "Components, tokens and layout rules.",
+            "description_fa": "کامپوننت‌ها، توکن‌ها و قواعد چیدمان.",
+            "sample_files": [
+              "design_system.fig"
+            ]
+          },
+          "Icons": {
+            "title_en": "Icons",
+            "title_fa": "آیکون‌ها",
+            "description_en": "Product icon set.",
+            "description_fa": "مجموعه آیکون‌های محصول."
+          },
+          "Illustrations": {
+            "title_en": "Illustrations",
+            "title_fa": "تصویرسازی‌ها",
+            "description_en": "Empty states, onboarding and marketing illustrations.",
+            "description_fa": "تصویرسازی حالت‌های خالی، آنبوردینگ و بازاریابی."
+          }
+        }
+      },
+      "03_Go_To_Market": {
+        "title_en": "Go To Market",
+        "title_fa": "ورود به بازار",
+        "description_en": "Everything needed to launch and grow.",
+        "description_fa": "هر آنچه برای عرضه و رشد لازم است.",
+        "subdirs": {
+          "Website_Assets": {
+            "title_en": "Website Assets",
+            "title_fa": "دارایی‌های وب‌سایت",
+            "description_en": "Hero images, OG images and favicons.",
+            "description_fa": "تصاویر اصلی، تصاویر OG و فاوآیکون‌ها."
+          },
+          "Social_Media": {
+            "title_en": "Social Media",
+            "title_fa": "شبکه‌های اجتماعی",
+            "description_en": "Profile pictures, covers and post templates.",
+            "description_fa": "تصاویر پروفایل، کاور و قالب پست."
+          },
+          "Pitch_Deck": {
+            "title_en": "Pitch Deck",
+            "title_fa": "ارائهٔ سرمایه‌گذاری",
+            "description_en": "Investor and sales presentation templates.",
+            "description_fa": "قالب‌های ارائه برای سرمایه‌گذار و فروش.",
+            "sample_files": [
+              "pitch_deck.key"
+            ]
+          },
+          "Press_Kit": {
+            "title_en": "Press Kit",
+            "title_fa": "کیت مطبوعاتی",
+            "description_en": "Boilerplate, founder photos and logo downloads.",
+            "description_fa": "متن معرفی، عکس بنیان‌گذاران و لوگوهای قابل دانلود."
+          }
+        }
+      },
+      "04_Legal": {
+        "title_en": "Legal",
+        "title_fa": "حقوقی",
+        "description_en": "Trademarks, font licenses and image rights.",
+        "description_fa": "علائم تجاری، مجوز فونت‌ها و حقوق تصاویر."
+      }
+    }
+  }
+}

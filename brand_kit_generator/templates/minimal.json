@@ -1,0 +1,50 @@
+{
+  "$schema": "../structure.schema.json",
+  "$meta": {
+    "name_en": "Minimal kit (5 folders)",
+    "name_fa": "کیت حداقلی (۵ پوشه)",
+    "default_brand": "My",
+    "version": "1.0.0"
+  },
+  "{brand}_Brand_Kit": {
+    "title_en": "{brand} Brand Kit",
+    "title_fa": "کیت برند {brand}",
+    "description_en": "Everything a freelancer or small team needs to keep the {brand} brand consistent.",
+    "description_fa": "هر آنچه یک فریلنسر یا تیم کوچک برای حفظ یکپارچگی برند {brand} نیاز دارد.",
+    "subdirs": {
+      "01_Logos": {
+        "title_en": "Logos",
+        "title_fa": "لوگوها",
+        "description_en": "Logo files in vector and raster formats.",
+        "description_fa": "فایل‌های لوگو در قالب‌های برداری و رستری.",
+        "sample_files": [
+          "logo.svg"
+        ]
+      },
+      "02_Colors": {
+        "title_en": "Colors",
+        "title_fa": "رنگ‌ها",
+        "description_en": "Brand color palette with HEX, RGB and CMYK values.",
+        "description_fa": "پالت رنگی برند به همراه کدهای HEX، RGB و CMYK."
+      },
+      "03_Fonts": {
+        "title_en": "Fonts",
+        "title_fa": "فونت‌ها",
+        "description_en": "Brand typefaces and their licenses.",
+        "description_fa": "قلم‌های برند و مجوزهای آن‌ها."
+      },
+      "04_Templates": {
+        "title_en": "Templates",
+        "title_fa": "قالب‌ها",
+        "description_en": "Reusable document and social media templates.",
+        "description_fa": "قالب‌های قابل‌استفادهٔ مجدد برای اسناد و شبکه‌های اجتماعی."
+      },
+      "05_Guidelines": {
+        "title_en": "Guidelines",
+        "title_fa": "دستورالعمل‌ها",
+        "description_en": "A short brand usage guide.",
+        "description_fa": "راهنمای کوتاه استفاده از برند."
+      }
+    }
+  }
+}
